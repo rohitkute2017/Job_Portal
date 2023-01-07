@@ -2,14 +2,22 @@ Summary - Created job portal using Django and Python where employees can see can
  
  
  Follow below instructions to run an app.
-          cd job_portal
-          pip install -r requirements.txt
-          cd jobs
-          python manage.py makemigrations
-          python manage.py migrate 
+          - Go to the downloaded directory 
+              cd job_portal
           
-          cd ../Employees
-          python manage.py makemigrations
-          python manage.py migrate 
+         - Run below command to install all packages required for project.
           
-          python manage.py runserver
+               pip install -r requirements.txt
+          
+         - after installation of packages run below command to star a project.
+          
+               python manage.py runserver
+          
+         -  after running server please go to the below link.
+          
+                http://127.0.0.1:8000/admin/
+          
+          - When site asks for username and password please enter below mention details.
+          
+                  Username  = Rohit
+                  Password = 1234
